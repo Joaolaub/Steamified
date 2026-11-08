@@ -1,6 +1,6 @@
 # Steamified
 
-Lightweight program for Windows that scans a non-Steam games folder, adds executables to the Steam library and downloads covers, banners, heroes, logos and icons from SteamGridDB, using the official name of each game.
+Extremely lightweight program built with neutralinojs for Windows that scans a non-Steam games folder, adds executables to the Steam library and downloads covers, banners, heroes, logos and icons from SteamGridDB, using the official name of each game.
 
 ## How to use
 
