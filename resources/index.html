@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steamified</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="frame">
+    <header>
+      <h1>Steamified</h1>
+      <p class="subtitle">Add your non-Steam games to your library, with covers and icons.</p>
+    </header>
+
+    <p id="status" class="status" hidden></p>
+
+    <section>
+      <h2>Steam</h2>
+      <p id="steam-path" class="muted">Looking for Steam...</p>
+      <label id="steam-user-row" for="steam-user" hidden>Steam account</label>
+      <select id="steam-user" hidden></select>
+      <p id="steam-shortcuts" class="muted"></p>
+      <div class="actions">
+        <button id="btn-recheck-steam" class="secondary">Re-check Steam</button>
+        <button id="btn-pick-steam" class="secondary">Choose Steam folder manually</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>SteamGridDB</h2>
+      <p id="sgdb-status" class="muted">Looking for a saved API key...</p>
+      <div class="actions">
+        <input id="sgdb-key" type="password" placeholder="Paste your SteamGridDB API key" autocomplete="off" spellcheck="false">
+        <button id="btn-save-key">Save key</button>
+        <button id="btn-get-key" class="secondary">Get a free key</button>
+      </div>
+    </section>
+
+    <section>
+      <h2>Games folder</h2>
+      <div class="actions">
+        <button id="btn-pick-folder">Choose games folder</button>
+      </div>
+      <p id="folder-path" class="muted">No folder selected.</p>
+    </section>
+
+    <section id="games-card" hidden>
+      <h2>Detected games <span id="games-count" class="muted"></span></h2>
+      <div class="list-tools">
+        <label class="check"><input type="checkbox" id="select-all" checked> Select all</label>
+      </div>
+      <ul id="games-list" class="games"></ul>
+      <div id="progress-wrap" hidden>
+        <div class="bar"><div id="progress-bar"></div></div>
+        <p id="progress" class="muted"></p>
+      </div>
+      <div class="actions">
+        <button id="btn-apply">Add games to Steam</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/neutralino.js"></script>
+  <script src="js/steam.js"></script>
+  <script src="js/steamgriddb.js"></script>
+  <script src="js/scanner.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

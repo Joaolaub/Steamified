@@ -1,0 +1,16 @@
+{
+  "name": "steamified",
+  "version": "1.0.0",
+  "description": "Adiciona jogos não-Steam à biblioteca da Steam com capas e ícones do SteamGridDB.",
+  "private": true,
+  "scripts": {
+    "start": "neu run",
+    "test": "node tests/run-all.js",
+    "build": "node scripts/build.js",
+    "update": "neu update"
+  },
+  "devDependencies": {
+    "@neutralinojs/neu": "latest",
+    "jsdom": "^31.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+Steamified - avisos de componentes de terceiros
+
+1. Neutralinojs (framework desktop e biblioteca cliente)
+   Licença MIT. O texto completo está no arquivo LICENSE.
+   https://neutralino.js.org
+
+2. JetBrains Mono (fonte da interface)
+   Copyright 2020 The JetBrains Mono Project Authors.
+   Licença SIL Open Font License 1.1. O texto completo está em resources/fonts/OFL-LICENSE.txt
+   (dentro do projeto) e acompanha as fontes empacotadas no aplicativo.
+   https://www.jetbrains.com/lp/mono/
+
+3. SteamGridDB
+   As imagens baixadas pertencem aos seus autores e ao SteamGridDB. O uso da API está sujeito
+   aos termos do serviço. https://www.steamgriddb.com
+
+Steamified é um projeto independente. Não é afiliado, aprovado nem patrocinado pela Valve
+nem pelo SteamGridDB. "Steam" é marca registrada da Valve Corporation.
