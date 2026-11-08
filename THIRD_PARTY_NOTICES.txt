@@ -16,3 +16,20 @@ Steamified - avisos de componentes de terceiros
 
 Steamified é um projeto independente. Não é afiliado, aprovado nem patrocinado pela Valve
 nem pelo SteamGridDB. "Steam" é marca registrada da Valve Corporation.
+
+Steamified - third-party component notices
+
+Neutralinojs (desktop framework and client library)
+MIT License. The full text is in the LICENSE file.https://neutralino.js.org
+
+JetBrains Mono (interface font)
+Copyright 2020 The JetBrains Mono Project Authors.
+SIL Open Font License 1.1. The full text is in resources/fonts/OFL-LICENSE.txt
+(inside the project) and accompanies the fonts packaged in the application.https://www.jetbrains.com/lp/mono/
+
+SteamGridDB
+Downloaded images belong to their respective authors and SteamGridDB. API usage is subject
+to the terms of service. https://www.steamgriddb.com
+
+Steamified is an independent project. It is not affiliated with, endorsed, or sponsored by Valve
+or SteamGridDB. "Steam" is a registered trademark of Valve Corporation.
